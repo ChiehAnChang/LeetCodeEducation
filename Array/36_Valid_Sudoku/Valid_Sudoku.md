@@ -53,7 +53,7 @@ Output: true
 
 - We must primarily ensure there are no duplicates in rows, columns, and sub-grids. Using sets is the most efficient way to check duplicates. We'll need three sets: one for rows, one for columns, and one for sub-grids. Checking rows and columns is straightforward, but sub-grids require nested loops. Each 3x3 sub-grid can be identified by row and column indices multiplied by 3. For instance, the central cell of the sub-grid at index (0,1) can be identified by row `0 * 3 + 1` and column `1 * 3 + 1`.
 
-## 2.2 Pseudo-Code: (Ignore this part. Only for myself to code)
+## 2.2 Pseudo-Code: (Ignore this part. This is a draft of code for thinking purposes.)
 
 ```python
 class Solution:
