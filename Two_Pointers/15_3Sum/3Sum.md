@@ -207,5 +207,5 @@ For each number in the sorted list, we perform a two-pointer (two-sum) approach,
 
 In the worst case, we could store all possible triplet combinations. The number of ways to choose 3 elements out of \(n\) is \(\binom{n}{3}\), so the space complexity can be a maximum of:
 
-- $O\bigl(\binom{n}{3})$ for storing triplet results.
+- $O\bigl(\binom{n}{3}\bigl)$ for storing triplet results.
 - O(n) for the sorting algorithm, or O(1) if the sorting is done in-place.
